@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: black;
+      }
+
+      .bar {
+        position: fixed;
+        z-index: 999;
+        margin: 15px;
+      }
+      .bar a {
+        border: 2px solid aqua;
+        padding: 0 10px;
+        display: block;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 10px;
+        color: aqua;
+        text-decoration: none;
+      }
+      .bar a:hover {
+        background-color: aqua;
+        color: rgb(133, 133, 133);
+      }
+      .audio {
+        margin-left: 35%;
+      }
+      h1 {
+        text-align: center;
+        font-size: 50px;
+        color: aqua;
+        text-shadow: 0 0 5px aqua;
+      }
+    </style>
+
+    <title>audio</title>
+  </head>
+  <body>
+    <div class="bar"><a href="./index.html">Home</a></div>
+    <h1>Musik crowszero</h1>
+
+    <audio class="audio" controls>
+      <source src="audio.mp3" type="audio/mpeg" />
+    </audio>
+  </body>
+</html>

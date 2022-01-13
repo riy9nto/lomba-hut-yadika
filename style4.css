@@ -1,0 +1,41 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.bar {
+  position: fixed;
+  z-index: 999;
+  margin: 15px;
+}
+.bar a {
+  border: 2px solid aqua;
+  padding: 0 10px;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: aqua;
+  text-decoration: none;
+}
+.bar a:hover {
+  background-color: aqua;
+  color: rgb(133, 133, 133);
+}
+ul {
+  float: right;
+  margin-top: 35px;
+}
+ul li {
+  display: inline-block;
+}
+.p {
+  max-width: 1200px;
+  margin: auto;
+}

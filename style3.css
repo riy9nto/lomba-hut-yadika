@@ -1,0 +1,35 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-size: sans-serif;
+}
+body {
+  background-color: black;
+  height: 100vh;
+}
+.bar {
+  position: fixed;
+  z-index: 999;
+  margin: 15px;
+}
+.bar a {
+  border: 2px solid aqua;
+  padding: 0 10px;
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: aqua;
+  text-decoration: none;
+}
+.bar a:hover {
+  background-color: aqua;
+  color: rgb(133, 133, 133);
+}
+.galery {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
